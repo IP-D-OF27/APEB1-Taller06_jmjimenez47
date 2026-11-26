@@ -18,5 +18,10 @@ public class Ejercicio03_SerieNumerica2 {
 
 /***
  * EVIDENCIA DEL RUN:
- * 
+ * 5/10
+10/12
+15/14
+20/16
+25/18
+30/20
  */
