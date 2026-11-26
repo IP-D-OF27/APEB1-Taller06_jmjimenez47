@@ -25,11 +25,16 @@ public class Ejercicio01_AdivinaNumero {
                 break;
             } else {
                 System.out.println("Te quedan " + intentos + " intentos");
-                System.out.println("Vuelve a intentar: ");
+                if (numAle > numAdv) {
+                    System.out.println("El numero es mayor");
+                } else {
+                    System.out.println("El numero es menor");
+                }
+                System.out.print("Vuelve a intentar: ");
             }
         }
-        if (intentos <= 0){
-            System.out.println("GAME OVER");
+        if (numAle != numAdv){
+            System.out.println("\nGAME OVER");
         }
     }
 }
